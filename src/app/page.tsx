@@ -20,12 +20,14 @@ export default function Home() {
       <CustomerLogos/>
     </MaxWidthWrapper>
     <Features/>
+    <MaxWidthWrapper>
       <SocialProof/>
       <Testimonials/>
       <Pricing/>
       <FAQ/>
       <CTA/>
       <Footer/>
+    </MaxWidthWrapper>
     </>  
       );
     }
