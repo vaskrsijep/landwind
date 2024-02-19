@@ -13,17 +13,19 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
+    <>
     <MaxWidthWrapper>
       <Navbar/>
       <Hero/>
       <CustomerLogos/>
-      <Features/>
+    </MaxWidthWrapper>
+    <Features/>
       <SocialProof/>
       <Testimonials/>
       <Pricing/>
       <FAQ/>
       <CTA/>
       <Footer/>
-    </MaxWidthWrapper>
-  );
-}
+    </>  
+      );
+    }
