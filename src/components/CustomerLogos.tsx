@@ -36,9 +36,8 @@ const CustomerLogos = () => {
           }}
         >
           {logoPaths.map((logoPath) => (
-            <SwiperSlide className="w-full flex flex-row justify-between items-center pb-10">
+            <SwiperSlide key={logoPath} className="w-full flex flex-row justify-between items-center pb-10">
               <Image
-                key={logoPath}
                 src={logoPath}
                 alt="Customer logo"
                 width={100}
