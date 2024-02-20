@@ -22,12 +22,12 @@ export default function Home() {
     <Features/>
     <MaxWidthWrapper>
       <SocialProof/>
-      <Testimonials/>
       <Pricing/>
       <FAQ/>
       <CTA/>
       <Footer/>
     </MaxWidthWrapper>
+    <Testimonials/>
     </>  
       );
     }
