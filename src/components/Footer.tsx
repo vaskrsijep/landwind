@@ -43,8 +43,10 @@ const links: Links[] = [
 
 const Footer = () => {
   return (
-    <div id="footer" className="bg-gray-900 max-w-7xl sm:px-6 mx-auto flex flex-col items-center rounded-t-lg py-10">
-      <div className="w-full grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 mt:10 sm:0 gap-10 sm:gap-0 py-10 sm:py-0 px-10 sm:px-5">
+    <div id="footer" className="bg-gray-900 w-full mx-auto flex flex-col items-center rounded-t-lg py-10">
+      <div className="flex items-center justify-between">
+
+      <div className="w-full mx-auto grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-20 sm:gap-20 py-10 sm:py-0">
         {links.map((linkGroup) => (
           <div
             key={linkGroup.Title}
@@ -66,6 +68,7 @@ const Footer = () => {
             </div>
           </div>
         ))}
+      </div>
       </div>
       <Image
         src="/images/logo.svg"

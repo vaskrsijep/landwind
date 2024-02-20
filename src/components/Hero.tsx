@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' flex items-center justify-between py-20 gap-10'>
+    <div className='w-full flex sm:flex-row flex-col items-center justify-between sm:py-20 py-10 gap-10'>
       <div className='flex flex-col gap-8'>
         <h1 className='leading-none text-6xl font-black text-gray-900'>Building digital products & brands.</h1>
         <p className='text-xl text-gray-500 font-normal'>Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>

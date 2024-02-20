@@ -5,8 +5,8 @@ import React from 'react'
 const Features = () => {
   return (
     <div className='w-full py-20 bg-gray-50'>
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-20 items-center justify-center'>
-        <div className='flex items-center justify-between gap-20'>
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex md:flex-col flex-col gap-20 items-center justify-center'>
+        <div className='flex items-center justify-between gap-5 sm:gap-20 flex-col sm:flex-row'>
           <div className='flex flex-col gap-5'>
             <h2 className='text-4xl font-extrabold leading-tight text-gray-900'>Work with tools you already use</h2>
             <p className='text-xl font-normal text-gray-500'>Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
@@ -28,7 +28,7 @@ const Features = () => {
           <Image src="/images/features-1.png" alt="features" width={500} height={500}/>
         </div>
 
-        <div className='flex items-center justify-between gap-20'>
+        <div className='flex items-center justify-between gap-5 sm:gap-20 flex-col-reverse sm:flex-row'>
         <Image src="/images/features-1.png" alt="features" width={500} height={500}/>
           <div className='flex flex-col gap-5'>
             <h2 className='text-4xl font-extrabold leading-tight text-gray-900'>We invest in the world’s potential</h2>

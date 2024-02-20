@@ -4,7 +4,7 @@ import React from "react";
 const SocialProof = () => {
   return (
     <div className="flex justify-between items-center py-20">
-      <div className="flex flex-row items-start justify-between gap-20">
+      <div className="flex md:flex-row flex-col items-start justify-between gap-20">
         <div className="flex flex-col gap-2">
           <p className="leading-none text-lg font-medium text-purple-600">Trusted Worldwide</p>
           <h2 className="leading-tight text-4xl font-extrabold text-gray-900">

@@ -47,7 +47,7 @@ const packages = [
 ];
 const Pricing = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 px-10 sm:px-0">
       <div className="flex flex-col gap-5 text-center">
         <h2 className="text-4xl font-extrabold leading-tight text-gray-900">
           Pay as you grow
@@ -56,7 +56,7 @@ const Pricing = () => {
           Here at flowbite we focus on markets where technology, innovation, and
           capital can unlock long-term value and drive economic growth.
         </p>
-        <div className="flex items-center justify-between gap-5">
+        <div className="flex md:flex-row flex-col items-center justify-between gap-5">
           {packages.map((pkg, index) => (
             <div key={index} className="flex flex-col justify-center border border-gray-200 rounded-md py-7 px-5 shadow-md gap-4">
               <h2 className="text-lg font-bold">{pkg.title}</h2>
